@@ -12,48 +12,27 @@ Introducing Budget Buddy, your ultimate companion for managing personal finances
 - Apache Tomcat
 
 
-### Running application
- Run the following scripts in setup/db/ folder:
- 
-    database_schema.sql 
-	inserts.sql
+### Instructions
 
- Set configuration settings in support/HOME/config/
-    
-    application.properties 
-    
-For running application from IDE set environment variables
+Follow the following steps to configure and run the script:
 
-    SPRING_CONFIG_LOCATION=/PATH_TO/HOME/config/
-    SPRING_CONFIG_NAME=application
+# Step 1: Enter the setup/db/ folder and execute:
 
-For running application from command line
+database_schema.sql
+inserts.sql
 
-    java -jar personalfinances.jar --spring.config.location=/PATH_TO/HOME/config/ --spring.config.name=application
-    
-Or copy setup/personalfinances.conf to directory where the personalfinances.jar is located, change LOG_FOLDER,CONF_FOLDER,LOG_FILENAME,RUN_ARGS arguments in file personalfinances.conf
-and run command
+# Step 2: Choose your preferred settings:
 
-    ./personalfinances.jar   
+application.properties 
 
-You can access personalfinances at http://localhost:8080/personalfinances/
+# Step 3.1: Run the script from the IDE:
 
-    Users 
-    admin role - admin/admin
-    user role - user/user
+SPRING_CONFIG_LOCATION=/PATH_TO/HOME/config/
+SPRING_CONFIG_NAME=application
 
-For adding transactions at first create categories, accounts, contacts from Settings menu.
-Sample categories:
+# Step 3.2: Run the script from the terminal:
 
-    Car
-    Clothes
-    Entertainment
-    Food
-    Gift
-    Other
-    Payments
-    Shopping
-    Transport
+ java -jar personalfinances.jar --spring.config.location=/PATH_TO/HOME/config/ --spring.config.name=application
 
 ![picture](doc/settings.png)
 
