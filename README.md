@@ -1,4 +1,6 @@
-# PersonalFinances
+# Project Overview
+
+Introducing Budget Buddy, your ultimate companion for managing personal finances with ease and confidence. Designed to simplify budgeting and financial planning, Budget Buddy helps you track expenses, set savings goals, and monitor your progress in real-time. With intuitive charts and personalized insights, you can make informed decisions and stay on top of your financial health. Whether you're saving for a big purchase or just trying to keep within your monthly budget, Budget Buddy provides the tools and support you need. Join the community of savvy savers and take control of your finances with Budget Buddy today!
 
 PersonalFinances is a personal finance tracker build with:
 + <a href="https://spring.io/projects/spring-boot" target="_blank">Spring Boot</a>
