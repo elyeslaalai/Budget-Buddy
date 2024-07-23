@@ -16,21 +16,21 @@ Introducing Budget Buddy, your ultimate companion for managing personal finances
 
 Follow the following steps to configure and run the script:
 
-# Step 1: Enter the setup/db/ folder and execute:
+* Step 1: Enter the setup/db/ folder and execute:
 
 database_schema.sql
 inserts.sql
 
-# Step 2: Choose your preferred settings:
+* Step 2: Choose your preferred settings:
 
 application.properties 
 
-# Step 3.1: Run the script from the IDE:
+* Step 3.1: Run the script from the IDE:
 
 SPRING_CONFIG_LOCATION=/PATH_TO/HOME/config/
 SPRING_CONFIG_NAME=application
 
-# Step 3.2: Run the script from the terminal:
+* Step 3.2: Run the script from the terminal:
 
  java -jar personalfinances.jar --spring.config.location=/PATH_TO/HOME/config/ --spring.config.name=application
 
