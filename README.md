@@ -1,20 +1,16 @@
-# Project Overview
+## Project Overview
 
-Introducing Budget Buddy, your ultimate companion for managing personal finances with ease and confidence. Designed to simplify budgeting and financial planning, Budget Buddy helps you track expenses, set savings goals, and monitor your progress in real-time. With intuitive charts and personalized insights, you can make informed decisions and stay on top of your financial health. Whether you're saving for a big purchase or just trying to keep within your monthly budget, Budget Buddy provides the tools and support you need. Join the community of savvy savers and take control of your finances with Budget Buddy today!
+Introducing Budget Buddy, your ultimate companion for managing personal finances easily and confidently. Designed to simplify budgeting and financial planning, Budget Buddy helps you track expenses, set savings goals, and monitor your progress in real-time. With intuitive charts and personalized insights, you can make informed decisions and stay on top of your financial health. Whether you're saving for a big purchase or just trying to keep within your monthly budget, Budget Buddy provides the tools and support you need. Join the community of savvy savers and take control of your finances with Budget Buddy today! We are excited to help you!
 
-PersonalFinances is a personal finance tracker build with:
-+ <a href="https://spring.io/projects/spring-boot" target="_blank">Spring Boot</a>
-+ <a href="https://spring.io/guides/gs/relational-data-access/" target="_blank">Spring JDBC</a>
-+ <a href="https://www.thymeleaf.org/" target="_blank">Thymeleaf</a>
-+ <a href="https://spring.io/projects/spring-security" target="_blank">Spring Security</a>
-+ <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>
-+ <a href="http://ace.jeka.by/" target="_blank">Ace Admin</a>
+## Setup Used
 
-### Required softwares
+- Java 11
+- Javascript
+- HTML
+- CSS
+- MySql
+- Apache Tomcat
 
-	a) java 11
-	b) application server - apache-tomcat-Apache 8/9
-	c) database server - mysql 8
 
 ### Running application
  Run the following scripts in setup/db/ folder:
